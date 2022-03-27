@@ -1,0 +1,54 @@
+#name {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 50px;
+}
+
+#name h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#instructions {
+  text-align: center;
+}
+
+#instructions h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 10px;
+}
+
+.button-container {
+  justify-content: center;
+}
+.clickable {
+  margin: 5px;
+}
+
+#life-container {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: x-large;
+}
+#life-text {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 900;
+  font-size: xx-large;
+}
+
+#hint {
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 900;
+}
+
+#blanks {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.fill_blanks{
+  font-size: 30px;
+}

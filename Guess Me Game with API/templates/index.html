@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess Me</title>
+
+  <!-- Other Script -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"></link>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous">
+  </script>
+
+  <link rel="preconnect" href="https://fonts.gstatic.com"> 
+  <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+  <!-- Other Scripts Ends -->
+
+  <!-- Local Styles -->
+  <link rel="stylesheet" href="./static/style.css" class="css">
+</head>
+<body>
+  <!-- heading of the game -->
+    <div id="name">
+      <h1>
+        Guess Me
+      </h1>
+    </div>
+
+  <!-- Instructions to play -->
+  <div id="instructions">
+    <h3>
+      Click on the alphabets to guess the word
+    </h3>
+  </div>
+
+  <!-- Buttons -->
+  <div class="row text-center button-container">
+    <div class="col-sm-4 text-center">
+      <button type = "button" class="btn btn-outline-secondary clickable" id="a">a</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="b">b</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="c">c</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="d">d</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="e">e</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="f">f</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="g">g</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="h">h</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="i">i</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="j">j</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="k">k</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="l">l</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="m">m</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="n">n</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="o">o</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="p">p</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="q">q</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="r">r</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="s">s</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="t">t</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="u">u</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="v">v</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="w">w</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="x">x</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="y">y</button>
+      <button type = "button" class="btn btn-outline-secondary clickable" id="z">z</button>
+    </div>
+  </div>
+
+  <!-- Chances -->
+  <div id="life-container">
+    <h4 id="life-text">
+      Chances Remaining: 
+    </h4>
+    <span id="life">
+
+    </span>
+  </div>
+
+  <!-- Hint -->
+  <div id="hint">
+    <h4>Hint</h4>
+  </div>
+
+  <!-- Blanks -->
+  <div id="blanks">
+    
+  </div>
+
+  <!-- Result -->
+  <div id="result">
+    <h5>Result</h5>
+  </div>
+
+  <script src="./static/script.js"></script>
+  
+</body>
+</html>
